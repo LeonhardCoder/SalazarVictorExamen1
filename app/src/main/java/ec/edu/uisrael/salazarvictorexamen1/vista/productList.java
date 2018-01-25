@@ -92,8 +92,8 @@ public class productList extends AppCompatActivity {
                 producto.setNombre(response.getPropertyAsString("nombre"));
                 int a = Integer.parseInt(response.getPropertyAsString("idProducto"));
                 producto.setIdProducto(a);
-                Float pvp = Float.parseFloat(response.getPropertyAsString("pvp"));
-                producto.setPvp(pvp);
+                String pvp = response.getPropertyAsString("pvp");
+                producto.setPvp( pvp);
                 productoList.add(producto);
             }
 

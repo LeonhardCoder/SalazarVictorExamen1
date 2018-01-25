@@ -73,8 +73,9 @@ public class AdapterProduct extends ArrayAdapter<producto> {
         // into the template view.
 
         viewHolder.id.setText(vh.getIdProducto()+ ".- "+ vh.getNombre());
-        String pvp = nf.format(vh.getPvp());
-        viewHolder.pvp.setText("" + pvp);
+        Double pvp = Double.parseDouble(vh.getPvp());
+        String spvp = nf.format(pvp);
+        viewHolder.pvp.setText("" + spvp);
 
 
         // Return the completed view to render on screen

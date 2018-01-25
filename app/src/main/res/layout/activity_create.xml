@@ -73,6 +73,7 @@
                 android:id="@+id/btncancelar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onclickCancel"
                 android:text="@string/action_cancel"
                 />
 
