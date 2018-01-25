@@ -10,7 +10,7 @@ import org.ksoap2.serialization.SoapPrimitive;
 import java.util.Hashtable;
 
 /**
- * Created by Victor on 4/12/2017.
+ * Created by Victor on 4/12/2017. actualizar
  */
 
 public class producto implements  KvmSerializable{
